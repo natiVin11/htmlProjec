@@ -1,0 +1,162 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+    font-family: Arial;
+
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    background-color: #ffd700;
+    color: black;
+}
+
+input{
+    margin: 1vh;
+    text-align: right;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+input_contact{
+    display: flex;
+    flex-direction:row;
+}
+input_contact:hover {
+    background-color: blue;
+}
+
+#upper_div{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+}
+#bottom_div{
+    display: flex;    flex: 1;
+    flex-direction: column;
+    background-color: lemonchiffon;
+    align-items: center;
+    justify-items: center;
+    color: black;
+}
+.imgGF{
+    width: 5mm;
+    height: 5mm;
+}
+
+#bottom_div2{
+    display: flex;    flex: 1;
+    flex-direction: column;
+    background-color: gold;
+    align-items: center;
+    justify-items: center;
+    color: black;
+}
+#bottom_div3{
+    display: flex;    flex: 1;
+    flex-direction: column;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-items: center;
+    color: black;
+}
+
+.pizza{
+    display: flex;    flex: 1;
+    flex-direction: column;
+    background-color: lemonchiffon;
+    align-items: center;
+    justify-items: center;
+    color: black;
+}
+
+#input_div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login_button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: Red;
+    color: white;
+    display: flex;
+    flex-direction:row;
+    height: 25px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #ffd700;color: #ffffff;}
+ul li:hover ul {display: block;}
+ul li ul {
+    color:white;
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+ul li ul li {
+    color:white;
+    background: #ffd700;
+    display: block;
+}
+ul li ul li a {display:block !important;}
+ul li ul li:hover {background: #ffd700;color: #ffffff;}
+
+img {
+
+    width:20mm;
+    height: 20mm;
+}
+
+#logo
+{
+
+    width: 30mm;
+    height: 30mm;
+    align-items: center;
+    display: flex;
+}
+#input_contact{
+    display: flex;
+    flex-direction:row;
+}
+#img2{
+    flex: 1;
+    float:left;
+    width:6mm;
+    height:4mm;
+}
